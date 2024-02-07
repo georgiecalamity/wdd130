@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+
+*{
+    margin: 2px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    background-color: rgb(242, 241, 225);
+}
+
+header {
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(145, 144, 130);
+    border-radius: 1rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #686868;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+label, input, button, select, textarea {
+    font-family: sans-serif;
+}
+
+label {
+    text-align: right;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border-radius: .5rem;
+    padding: 2px;
+    background-color: blue;
+    font-size: 1rem;
+    color: white;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+button:hover{
+    background-color: #bdb2b2;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: black;
+    border-top: 1px solid gray;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0 auto;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+ }
