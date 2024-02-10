@@ -135,7 +135,7 @@ label[for="option-3"]{
     margin: 5px;
 }
 
-input[type="submit"]{
+button[type="submit"]{
     color: #ffffff;
     background-color: #3498db;
     padding: 10px 30px;
