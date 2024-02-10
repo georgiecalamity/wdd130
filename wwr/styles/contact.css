@@ -24,11 +24,6 @@ nav {
     justify-content: center;
  }
 
-body {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
- }
 
 p {
     color: #333;
@@ -55,49 +50,6 @@ p {
     color: #3498db;
  }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
-
- }
-.hero article h2 {
-    color: #ffffff;
- }
-.hero article {
-    position: absolute;
-    bottom: 20%;
-    left: 14%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7); 
-    
- }
-.hero article p {
-    line-height: 1.6;
-    font-size: 16px;
-    color: #ffffff;
- }
-.hero article img {
-    float: right;
-    width: 100px;
- }
-.hero{
-    position: relative;
- }
-.hero h1 {
-    color: var(--text-color);
-    margin-bottom: 10px;
-    position: absolute;
-    top: 50px;
-    background-color: rgba(141, 183, 34, 0.5);
-    text-align: center;
-    width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
- }
 
 .navigation {
 	display: flex;
@@ -119,12 +71,6 @@ p {
 	font-weight: 700;
 	text-decoration: none;
  }
-
-.adventures {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
   
 figure {
     text-align: center;
@@ -136,24 +82,88 @@ figure img {
     border: 1px solid #000000;
     border-radius: 8px;
 }
-section h2{
+
+
+/* h2 {
     text-align: center;
-}
-h2 {
-    text-align: center;
-}
+} */
   
 figcaption {
     margin-top: 10px;
-    font-weight: bold;
   }
 
 footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid rgb(164, 164, 164);
   }
 
 footer p{
     margin-left: 400px;
   }
+
+.comp-info h2{
+    text-align: left;
+}
+
+.employees {
+    display: flex;
+}
+
+form {
+    /* margin: 0 auto; */
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(229, 242, 242);
+    width: 330px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+  }
+
+label[for="option-1"]{
+    margin: 5px;
+}
+label[for="option-2"]{
+    margin: 5px;
+}
+label[for="option-3"]{
+    margin: 5px;
+}
+
+input[type="submit"]{
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 8px auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 20px;
+}
+input[type="submit"]:hover{
+    color: #ffffff;
+    background-color: #004a7b;
+}
+
+.container {
+    display: flex;
+}
+
+.comp-info,
+.contact-form {
+    flex: 1;
+    padding: 10px;
+}
+
+textarea{
+    width:300px;
+}
