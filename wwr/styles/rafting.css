@@ -133,8 +133,7 @@ figure {
 figure img {
     max-width: 125%;
     height: auto;
-    border: 1px solid #000000;
-    border-radius: 8px;
+
 }
 section h2{
     text-align: center;
@@ -218,4 +217,73 @@ input[type="submit"]:hover{
 
 textarea{
     width:300px;
+}
+
+/* trips page*/
+.trip {
+    display: flex;
+    ;
+}
+
+.trip img{
+    height: 200px;
+    width: 300px;
+}
+
+#tripbutton{
+    padding:20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: hsl(205, 100%, 38%);
+    color: white;   
+}
+
+.tripbutton-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-bottom:1px solid rgb(222, 222, 222);
+    padding-bottom:50px
+}
+
+thead {
+    background-color: #3498db;
+}
+th {
+    padding: 10px;
+    font-size: 20px;
+}
+
+td, th{
+    border:1px solid black;
+    width: 250px;
+    height: 40px;
+    border-collapse: collapse;
+}
+tr {
+    text-align: center;
+    border-collapse: collapse;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 85%);
+}
+
+/*  */
+
+.view-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.view-button:hover {
+    background-color: #45a049;
 }
