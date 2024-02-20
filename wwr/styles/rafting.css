@@ -5,6 +5,7 @@
     --background-color: #ecf0f1;
     --text-color: #ffffff;
  }
+ 
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -235,7 +236,8 @@ textarea{
     font-size: large;
     font-weight: bold;
     background-color: hsl(205, 100%, 38%);
-    color: white;   
+    color: white;  
+    text-decoration: none;
 }
 
 .tripbutton-container {
@@ -289,3 +291,105 @@ table{
 .view-button:hover {
     background-color: #45a049
 }
+
+/* home page */
+
+.homepage-hero {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+}
+
+.homepage-hero img {
+    width:100% ;
+}
+
+.homepage-hero h1 {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    border-radius: 20px;
+    font-size: 5rem;
+    color: white;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homepage-form input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #266328;
+    color: white;
+    border:none;
+    cursor: pointer;
+    margin-top: 10px;
+    box-sizing: border-box;
+    }
+
+input[type="submit"]:hover{
+    background-color:#184a1b ;
+}
+
+.homepage-form form{
+    height:550px;
+    margin: 20px ;
+}
+.homepage-link {
+    text-align: center;
+
+}
+.homepage-link img{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.homepage-link a{
+    position: absolute;
+    left: 50%;
+    top: 940px;
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+    background-color: #000000;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.homepage-link p{
+    font-size: 17px;
+
+}
+
+.homepage-link a:hover{
+    background-color: #005187;
+    cursor: pointer;
+}
+
+.homepage-container{
+    display: flex;
+}
+
+.homepage-link p {
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    color: #000000;
+    font-size: 30px;
+  }
